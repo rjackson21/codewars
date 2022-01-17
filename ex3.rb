@@ -7,5 +7,8 @@ to worry with strings with less than two characters.
 =end
 
 def remove_char(s)
-    #your code here
-  end
+    s[1...-1]
+end
+
+s = "Eloquent"
+p remove_char(s)
